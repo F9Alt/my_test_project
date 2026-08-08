@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+User-agent: GPTBot
+Allow: /
+Allow: /data/posts.json
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /data/posts.json
+Allow: /llms.txt
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /data/posts.json
+Allow: /llms.txt
+
+User-agent: YandexGPT
+Allow: /
+Allow: /data/posts.json
+Allow: /llms.txt
+
+Sitemap: https://fashion-feed.example/sitemap.xml

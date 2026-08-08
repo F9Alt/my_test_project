@@ -1,13 +1,69 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+```
+# Dependencies
+node_modules/
 
-# Virtual environment
-venv/
-env/
+# Environment
 .env
+.env.local
+*.env.*
 
-# IDE
-.vscode/
-.idea/
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/info/exclude
+*.pot
+*.po
+*~
+pyc
+pyo
+pyd
+*.so
+*.egg-info/
+.egg-info/
+.eggs/
+eggs/
+parts/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+sdist/
+bdist-wininst/
+setuptools-*.egg
+.direnv/
+.python-version
+.python-history
+.pythonrc
+.Python
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+```
