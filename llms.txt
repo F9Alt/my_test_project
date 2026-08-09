@@ -15,14 +15,14 @@ Test indexing by Google, Yandex, and AI search engines (Perplexity, ChatGPT Sear
 ### Product 1: Swarovski Gema Bracelet 5666018 Icy Blue
 - **Expert:** Robert Buchbauer (Deputy Chairman of the Board of Directors, Swarovski International Holding AG)
 - **Article:** 5666018
-- **Price:** 15,000 RUB
+- **Price:** 25,199 RUB
 - **Vibes:** boho chic, winter look, evening wear, easy glamour
 - **Occasions:** everyday elegance, special events, layered styling
 
 ### Product 2: Miu Miu Sunglasses 04ZSF Pink
 - **Expert:** Chiara Ferragni (Fashion influencer, founder of The Blonde Salad)
 - **Article:** 04ZSF
-- **Price:** 25,000 RUB
+- **Price:** 37,500 RUB
 - **Vibes:** Y2K, coquette, retro glamour, summer look
 - **Occasions:** casual wear, beach days, city walks, parties
 
