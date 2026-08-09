@@ -161,7 +161,7 @@ function getSchemaOrg(post) {
 
 function trackBuyClick(postId, medium) {
   if (typeof ym !== 'undefined') {
-    ym(XXXXXXXX, 'reachGoal', `buy_click_${medium}`);
+    ym(111437750, 'reachGoal', `buy_click_${medium}`);
   }
   console.log(`Buy click tracked: ${postId} from ${medium}`);
 }
