@@ -6,13 +6,13 @@
       "name": "Robert Buchbauer",
       "name_ru": "Роберт Бухбауэр",
       "role": "Заместитель председателя Совета директоров Swarovski International Holding AG",
-      "image": "/images/experts/robert-buchbauer.jpg"
+      "image": "images/experts/robert-buchbauer.jpg"
     },
     "product": {
       "brand": "Swarovski",
       "name": "Браслет Gema 5666018 Icy Blue",
       "article": "5666018",
-      "image": "/images/products/swarovski-gema-5666018.jpg",
+      "image": "images/products/swarovski-gema-5666018.jpg",
       "price_rub": 15000,
       "marketplace": "Avito",
       "region": "Москва",
@@ -46,13 +46,13 @@
       "name": "Chiara Ferragni",
       "name_ru": "Кьяра Ферраньи",
       "role": "Fashion-инфлюэнсер, основатель The Blonde Salad",
-      "image": "/images/experts/chiara-ferragni.jpg"
+      "image": "images/experts/chiara-ferragni.jpg"
     },
     "product": {
       "brand": "Miu Miu",
       "name": "Солнцезащитные очки 04ZSF Pink",
       "article": "04ZSF",
-      "image": "/images/products/miu-miu-04zsf.jpg",
+      "image": "images/products/miu-miu-04zsf.jpg",
       "price_rub": 25000,
       "marketplace": "Avito",
       "region": "Москва",

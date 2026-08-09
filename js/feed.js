@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('/data/posts.json')
+  fetch('data/posts.json')
     .then(response => response.json())
     .then(posts => {
       const feed = document.getElementById('feed');
@@ -59,7 +59,7 @@ function createPostCard(post) {
   content.appendChild(excerpt);
   
   const readMore = document.createElement('a');
-  readMore.href = `/post/${post.id}.html`;
+  readMore.href = `post/${post.id}.html`;
   readMore.className = 'read-more-btn';
   readMore.textContent = 'Читать полностью →';
   content.appendChild(readMore);
