@@ -150,6 +150,8 @@ function getSchemaOrg(post) {
         "@type": "Brand",
         "name": post.product.brand
       },
+      "review": {"@type": "Review", "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}, "author": {"@type": "Person", "name": post.expert.name}, "reviewBody": post.content.excerpt},
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5", "reviewCount": "1"},
       "offers": {
         "@type": "Offer",
         "price": post.product.price_rub,
