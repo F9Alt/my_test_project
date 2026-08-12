@@ -7,8 +7,8 @@ Fashion Feed is an experimental static website featuring expert fashion reviews 
 Test indexing by Google, Yandex, and AI search engines (Perplexity, ChatGPT Search, Yandex Neuro) through specialized machine-readable files (llms.txt, Schema.org).
 
 ## Data Sources
-- Structured posts data: https://fashion-feed.example/data/posts.json
-- Sitemap: https://fashion-feed.example/sitemap.xml
+- Structured posts data: https://f9alt.github.io/my_test_project/data/posts.json
+- Sitemap: https://f9alt.github.io/my_test_project/sitemap.xml
 
 ## Products
 
@@ -27,7 +27,7 @@ Test indexing by Google, Yandex, and AI search engines (Perplexity, ChatGPT Sear
 - **Occasions:** casual wear, beach days, city walks, parties
 
 ## For AI Agents
-GET https://fashion-feed.example/data/posts.json for structured product and review data.
+GET https://f9alt.github.io/my_test_project/data/posts.json for structured product and review data.
 
 The JSON contains complete information about each post including:
 - Expert details (name, role, image)

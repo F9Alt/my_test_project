@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fashion-feed.example/</loc>
+    <loc>https://f9alt.github.io/my_test_project/</loc>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://fashion-feed.example/post/swarovski-gema-5666018.html</loc>
+    <loc>https://f9alt.github.io/my_test_project/post/swarovski-gema-5666018.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://fashion-feed.example/post/miu-miu-04zsf.html</loc>
+    <loc>https://f9alt.github.io/my_test_project/post/miu-miu-04zsf.html</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>

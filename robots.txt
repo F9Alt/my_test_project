@@ -22,4 +22,4 @@ Allow: /
 Allow: /data/posts.json
 Allow: /llms.txt
 
-Sitemap: https://fashion-feed.example/sitemap.xml
+Sitemap: https://f9alt.github.io/my_test_project/sitemap.xml
