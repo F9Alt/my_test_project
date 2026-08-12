@@ -144,6 +144,8 @@ function getSchemaOrg(post) {
       "@type": "Product",
       "name": post.product.name,
       "sku": post.product.article,
+      "image": [post.product.image],
+      "description": post.content.excerpt,
       "brand": {
         "@type": "Brand",
         "name": post.product.brand
@@ -153,7 +155,9 @@ function getSchemaOrg(post) {
         "price": post.product.price_rub,
         "priceCurrency": "RUB",
         "availability": "https://schema.org/InStock",
-        "url": post.product.buy_link
+        "url": post.product.buy_link,
+        "shippingDetails": {"@type": "OfferShippingDetails", "shippingRate": {"@type": "MonetaryAmount", "value": 0, "currency": "RUB"}, "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "RU"}},
+        "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "RU", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 14, "returnMethod": "https://schema.org/ReturnByMail", "returnFees": "https://schema.org/ReturnShippingFees"}
       }
     }
   };
