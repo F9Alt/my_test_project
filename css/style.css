@@ -332,3 +332,10 @@ header p {
     font-size: 1.25rem;
   }
 }
+
+/* Товарное фото целиком, без кропа */
+.hero-image {
+  object-fit: contain;
+  max-height: 560px;
+  background: #ffffff;
+}
