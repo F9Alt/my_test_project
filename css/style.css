@@ -339,3 +339,9 @@ header p {
   max-height: 560px;
   background: #ffffff;
 }
+
+/* v3: карточки ленты тоже целиком */
+.post-card-image {
+  object-fit: contain !important;
+  background: #ffffff;
+}
