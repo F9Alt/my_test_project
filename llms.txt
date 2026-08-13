@@ -20,3 +20,5 @@
 ## Ресурсы
 - Sitemap: https://f9alt.github.io/my_test_project/sitemap.xml
 - Данные: https://f9alt.github.io/my_test_project/data/posts.json
+
+- Канал в MAX: https://max.ru/channel_fashionfeed
