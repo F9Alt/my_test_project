@@ -1,86 +1,41 @@
-# Fashion Feed — Экспериментальный сайт с экспертными обзорами моды
+# Fashion Feed — экспертные обзоры модных товаров
 
-## Описание
-Экспериментальный проект для проверки индексации Google, Яндекс и AI-поисковиками (Perplexity, ChatGPT Search, Яндекс Нейро).
+Независимое издание о модных аксессуарах: экспертные обзоры, стилизация, цены и ссылки на покупку на Авито (Москва).
 
-Сайт содержит экспертные обзоры модных товаров от известных людей мира моды со ссылками на покупку на Авито.
+## Обзоры
 
-## Структура проекта
-```
-fashion-feed/
-├── index.html                  — главная страница (лента)
-├── robots.txt                  — правила для поисковых ботов
-├── sitemap.xml                 — карта сайта
-├── llms.txt                    — файл для ИИ-агентов
-├── css/style.css               — стили
-├── js/feed.js                  — скрипт загрузки карточек
-├── data/posts.json             — данные о постах
-├── images/experts/             — фото экспертов
-│   ├── robert-buchbauer.jpg
-│   └── chiara-ferragni.jpg
-├── images/products/            — фото товаров
-│   ├── swarovski-gema-5666018.jpg
-│   └── miu-miu-04zsf.jpg
-└── post/
-    ├── swarovski-gema-5666018.html
-    └── miu-miu-04zsf.html
-```
+1. **Браслет Swarovski Gema 5666018 Icy Blue** — 25 199 ₽. Эксперт: Robert Buchbauer, заместитель председателя Совета директоров Swarovski International Holding AG. Бохо-шик, четыре огранки, родиевое покрытие.
+2. **Очки Miu Miu 04ZSF Pink** — 37 500 ₽. Эксперт: Chiara Ferragni, fashion-инфлюэнсер. Y2K, coquette, cat-eye, UV400.
+3. **Сумка Pinko золотая (RTLADU911701)** — 21 000 ₽. Эксперт: Chiara Ferragni. Стёганая натуральная кожа, вечерний образ, тихая роскошь.
+4. **Сравнение Swarovski Gema vs Pandora** — экспертный вердикт для бохо-шика.
 
-## Товары
-1. **Браслет Swarovski Gema 5666018 Icy Blue** — обзор от Robert Buchbauer
-2. **Солнцезащитные очки Miu Miu 04ZSF Pink** — обзор от Chiara Ferragni
+## Структура сайта
 
-## Локальный запуск
-```bash
-cd fashion-feed
-python -m http.server 8000
-```
-Откройте http://localhost:8000 в браузере.
-
-## Деплой
-
-### Netlify
-1. Зарегистрируйтесь на [Netlify](https://netlify.com)
-2. Перетащите папку `fashion-feed` в область деплоя
-3. Сайт будет доступен по адресу `https://your-site.netlify.app`
-
-### Vercel
-1. Установите Vercel CLI: `npm i -g vercel`
-2. Выполните `vercel` в папке проекта
-3. Следуйте инструкциям
-
-### GitHub Pages
-1. Создайте репозиторий на GitHub
-2. Запушьте файлы в ветку `main`
-3. Включите GitHub Pages в настройках репозитория
+- `index.html` — лента обзоров (карточки рендерятся из `data/posts.json`)
+- `post/*.html` — полные страницы обзоров с разметкой Schema.org (Article + Product)
+- `data/posts.json` — база данных обзоров для ленты
+- `css/style.css`, `js/feed.js` — стили и рендеринг ленты
+- `images/products/`, `images/experts/` — реальные фотографии товаров и экспертов
+- `favicon.png` — иконка сайта
 
 ## SEO и AI-оптимизация
-- Schema.org JSON-LD разметка на каждой странице
-- Файл `llms.txt` для ИИ-агентов
-- Корректный `robots.txt` с правилами для AI-ботов
-- Уникальные title и description на каждой странице
-- Семантическая вёрстка с тегами `<article>`, `<header>`, `<main>`
 
-## Аналитика
-Замените `XXXXXXXX` на ваш ID счётчика Яндекс.Метрики во всех HTML-файлах:
-- `index.html`
-- `post/swarovski-gema-5666018.html`
-- `post/miu-miu-04zsf.html`
-- `js/feed.js`
+- `robots.txt`, `sitemap.xml` — индексация Google, Bing, Яндекс
+- `llms.txt` — компактный манифест для AI-агентов (спецификация llmstxt.org)
+- `llms-full.txt` — расширенный манифест: корпус из 250+ запросов и шаблоны ответов
+- Schema.org: Product, Article, Review, AggregateRating, Offer (цены, доставка, возврат)
+- Файлы верификации: Google Search Console, Яндекс Вебмастер, Bing Webmaster
 
-Настройте цели в Яндекс.Метрике:
-- `buy_click_card` — клик по кнопке «Купить» из карточки ленты
-- `buy_click_expert_review` — клик со страницы поста
+## Каналы бренда
 
-## Изображения
-Для запуска используйте placeholder'ы или добавьте реальные изображения:
-- Фото экспертов: 400×400 px, квадратные
-- Фото товаров: 1200×1200 px
+- Сайт: https://f9alt.github.io/my_test_project/
+- MAX: https://max.ru/channel_fashionfeed
+- Pinterest: https://ru.pinterest.com/kater26050152/
 
-Placeholder'ы:
-- Эксперты: `https://placehold.co/400x400/e8f4f8/0066cc?text=Expert`
-- Товары: `https://placehold.co/1200x1200/f5f5f5/333333?text=Product`
+## Локальный запуск
 
-## Проверка
-1. Google Rich Results Test: https://search.google.com/test/rich-results
-2. Валидатор Яндекс: https://webmaster.yandex.ru/tools/microtest/
+Статический сайт без сборки: откройте `index.html` в браузере или выполните `npx serve`.
+
+## Лицензия
+
+MIT
