@@ -75,7 +75,7 @@ function createPostCard(post) {
   
   const price = document.createElement('div');
   price.className = 'product-price';
-  price.textContent = `${post.product.price_rub.toLocaleString('ru-RU')} руб.`;
+  price.textContent = `${(post.product.buy_link.includes('f9alt.github.io') ? 'от ' + post.product.price_rub.toLocaleString('ru-RU') : post.product.price_rub.toLocaleString('ru-RU'))} руб.`;
   productInfo.appendChild(price);
   
   const buyBtn = document.createElement('a');
