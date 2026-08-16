@@ -83,7 +83,8 @@ function createPostCard(post) {
   buyBtn.className = 'buy-btn';
   buyBtn.target = '_blank';
   buyBtn.rel = 'noopener noreferrer';
-  buyBtn.textContent = `Купить на ${post.product.marketplace}`;
+  const isInternalLink = post.product.buy_link.includes('f9alt.github.io');
+  buyBtn.textContent = isInternalLink ? 'Читать гид' : `Купить на ${post.product.marketplace}`;
   buyBtn.setAttribute('data-post-id', post.id);
   buyBtn.addEventListener('click', function() {
     trackBuyClick(post.id, 'card');
