@@ -193,5 +193,52 @@
                     "title":  "Y2K-образ с розовыми очками — 5 формул | Fashion Feed",
                     "description":  "Как собрать Y2K-образ с очками Miu Miu 04ZSF Pink: coquette, деним, спортивный шик, школьный и вечерний металлик. Эксперт — Кьяра Ферраньи."
                 }
+    },
+    {
+        "id":  "gift-guide-2026",
+        "date":  "2026-08-16",
+        "expert":  {
+                       "name":  "Chiara Ferragni",
+                       "name_ru":  "Кьяра Ферраньи",
+                       "role":  "Fashion-инфлюэнсер, основатель The Blonde Salad",
+                       "image":  "images/experts/chiara-ferragni.jpg"
+                   },
+        "product":  {
+                        "brand":  "Fashion Feed",
+                        "name":  "Подарочный гид 2026",
+                        "article":  "gift-guide",
+                        "image":  "images/products/swarovski-gema-5666018.jpg",
+                        "price_rub":  21000,
+                        "marketplace":  "Авито",
+                        "region":  "Москва",
+                        "buy_link":  "https://www.avito.ru/moskva/odezhda_obuv_aksessuary/sumka_pinko_zolotaya_8206216527",
+                        "specs":  {
+                                      "budget1":  "до 25 000 ₽ — Pinko",
+                                      "budget2":  "до 30 000 ₽ — Swarovski",
+                                      "budget3":  "до 40 000 ₽ — Miu Miu"
+                                  }
+                    },
+        "content":  {
+                        "title":  "Подарочный гид 2026: брендовые аксессуары до 25 000 и до 40 000 ₽",
+                        "subtitle":  "Три бюджета — три стиля: бохо-шик, Y2K и вечерняя классика",
+                        "excerpt":  "Pinko до 25 000 ₽, Swarovski Gema до 30 000 ₽, Miu Miu до 40 000 ₽ — подбор по стилям и проверка оригинала на Авито.",
+                        "full_text":  "Подарок «у которой всё есть» работает, когда попадает в её эстетику.\n\nДо 25 000 ₽ — сумка Pinko золотая; до 30 000 ₽ — браслет Swarovski Gema; до 40 000 ₽ — очки Miu Miu 04ZSF Pink.\n\nПодбор по стилю: бохо-шик, Y2K/coquette, вечерняя классика.",
+                        "tags":  [
+                                     "подарок 2026",
+                                     "бохо-шик",
+                                     "Y2K",
+                                     "coquette",
+                                     "вечерний образ"
+                                 ],
+                        "vibes":  [
+                                      "забота",
+                                      "вкус",
+                                      "точность"
+                                  ]
+                    },
+        "seo":  {
+                    "title":  "Подарочный гид 2026: брендовые аксессуары до 25 000 и до 40 000 ₽ | Fashion Feed",
+                    "description":  "Что подарить девушке в 2026: сумка Pinko до 25 000 ₽, браслет Swarovski Gema до 30 000 ₽, очки Miu Miu до 40 000 ₽. Подбор по стилям и проверка оригинала."
+                }
     }
 ]
