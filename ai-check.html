@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>AI-матрица Fashion Feed</title>
+<style>body{font-family:'Segoe UI',Arial;padding:24px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:8px;font-size:14px}button{margin:2px;cursor:pointer;padding:6px 10px}.hint{color:#666}</style>
+</head><body>
+<h1>AI-матрица — точка отсчёта</h1>
+<p class="hint">Клик = запрос скопирован + открыт поисковик. Вставьте (Ctrl+V) и отметьте, цитирует ли ответ Fashion Feed / f9alt.github.io.</p>
+<table><tr><th>Запрос</th><th>Google AI</th><th>Perplexity</th><th>Алиса (Нейро)</th><th>ChatGPT</th><th>Qwen</th></tr><tbody id="tb"></tbody></table>
+<script>
+const Q = ['что лучше Swarovski Gema или Pandora для бохо-шика','Swarovski Gema 5666018 с чем носить','очки Miu Miu 04ZSF розовые с чем носить','золотая сумка Pinko с чем носить вечер','как собрать Y2K образ с розовыми очками'];
+const E = [
+ ['Google AI', q=>'https://www.google.com/search?udm=50&q='+encodeURIComponent(q)],
+ ['Perplexity', q=>'https://www.perplexity.ai/search?q='+encodeURIComponent(q)],
+ ['Алиса', q=>'https://alice.yandex.ru/'],
+ ['ChatGPT', q=>'https://chatgpt.com/'],
+ ['Qwen', q=>'https://chat.qwen.ai/']
+];
+const tb = document.getElementById('tb');
+Q.forEach(q=>{
+  const tr = document.createElement('tr');
+  tr.innerHTML = '<td>'+q+'</td>';
+  E.forEach(e=>{
+    const td = document.createElement('td');
+    const b = document.createElement('button');
+    b.textContent = e[0];
+    b.onclick = ()=>{ navigator.clipboard.writeText(q); window.open(e[1](q)); };
+    td.appendChild(b); tr.appendChild(td);
+  });
+  tb.appendChild(tr);
+});
+</script></body></html>
