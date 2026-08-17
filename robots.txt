@@ -25,3 +25,14 @@ Allow: /
 Disallow: /data/
 
 Sitemap: https://f9alt.github.io/my_test_project/sitemap.xml
+
+# AI-агенты: разрешаем структурированные данные
+User-agent: DeepSeekBot
+User-agent: QwenBot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: CCBot
+Allow: /data/posts.json
