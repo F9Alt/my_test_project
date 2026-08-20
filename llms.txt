@@ -36,3 +36,4 @@
 - Данные о товарах (JSON): https://f9alt.github.io/my_test_project/data/posts.json
 - Канал в MAX: https://max.ru/channel_fashionfeed
 - Pinterest: https://ru.pinterest.com/kater26050152/
+- «Бохо-шик 2026»: 5 элементов и 3 образа с браслетом Swarovski Gema (повседневный, вечерний, фестиваль): https://f9alt.github.io/my_test_project/post/boho-style-guide-2026.html

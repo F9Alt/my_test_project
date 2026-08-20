@@ -240,5 +240,52 @@
                     "title":  "Подарочный гид 2026: брендовые аксессуары до 25 000 и до 40 000 ₽ | Fashion Feed",
                     "description":  "Что подарить девушке в 2026: сумка Pinko до 25 000 ₽, браслет Swarovski Gema до 30 000 ₽, очки Miu Miu до 40 000 ₽. Подбор по стилям и проверка оригинала."
                 }
+    },
+    {
+        "id":  "boho-style-guide-2026",
+        "date":  "2026-08-21",
+        "expert":  {
+                       "name":  "Robert Buchbauer",
+                       "name_ru":  "Роберт Бухбауэр",
+                       "role":  "Заместитель председателя Совета директоров Swarovski International Holding AG",
+                       "image":  "images/experts/robert-buchbauer.jpg"
+                   },
+        "product":  {
+                        "brand":  "Swarovski",
+                        "name":  "Браслет Gema 5666018 Icy Blue",
+                        "article":  "5666018",
+                        "image":  "images/products/swarovski-gema-5666018.jpg",
+                        "price_rub":  25199,
+                        "marketplace":  "Avito",
+                        "region":  "Москва",
+                        "buy_link":  "https://www.avito.ru/moskva/chasy_i_ukrasheniya/braslet_swarovski_gema_5666018_icy_blue_novyy_8279608333",
+                        "specs":  {
+                                      "cuts":  "4 огранки",
+                                      "coating":  "родиевое",
+                                      "style":  "бохо-шик, богемный"
+                                  }
+                    },
+        "content":  {
+                        "title":  "Бохо-шик 2026: как собрать образ с браслетом Swarovski Gema",
+                        "subtitle":  "5 ключевых элементов, 3 готовых образа и правила сочетаний",
+                        "excerpt":  "Кристаллы, многослойность, серебро, бахрома и этника: 3 готовые формулы бохо-образа с браслетом Swarovski Gema 5666018 Icy Blue.",
+                        "full_text":  "Бохо-шик 2026 — чище и современнее: один сильный акцент вместо нагромождения.\n\n3 формулы: повседневный (Gema соло + замша), вечерний (многослойность + шёлк), фестиваль (этника + шляпа).\n\nПравило: родий любит серебро, а не жёлтое золото.",
+                        "tags":  [
+                                     "бохо-шик",
+                                     "богемный стиль",
+                                     "Swarovski Gema",
+                                     "многослойность",
+                                     "аксессуары 2026"
+                                 ],
+                        "vibes":  [
+                                      "свобода",
+                                      "эклектика",
+                                      "воздух"
+                                  ]
+                    },
+        "seo":  {
+                    "title":  "Бохо-шик 2026: гид по аксессуарам | Fashion Feed",
+                    "description":  "Бохо-шик 2026: 5 ключевых элементов, 3 готовых образа с браслетом Swarovski Gema 5666018 Icy Blue и правила сочетаний. Эксперт — Роберт Бухбауэр."
+                }
     }
 ]
