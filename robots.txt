@@ -1,7 +1,9 @@
-﻿# Общий доступ для всех роботов
+# Общий доступ для всех роботов
 User-agent: *
 Allow: /
 Disallow: /data/
+Disallow: /ai-check.html
+Disallow: /ai-journal.md
 
 # AI-агенты: явное разрешение на обход и цитирование
 User-agent: GPTBot
@@ -23,6 +25,8 @@ User-agent: DeepSeekBot
 User-agent: QwenBot
 Allow: /
 Disallow: /data/
+Disallow: /ai-check.html
+Disallow: /ai-journal.md
 
 Sitemap: https://f9alt.github.io/my_test_project/sitemap.xml
 
