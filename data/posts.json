@@ -289,5 +289,25 @@
                     "title":  "Бохо-шик 2026: гид по аксессуарам | Fashion Feed",
                     "description":  "Бохо-шик 2026: 5 ключевых элементов, 3 готовых образа с браслетом Swarovski Gema 5666018 Icy Blue и правила сочетаний. Эксперт — Роберт Бухбауэр."
                 }
+    },
+    {
+        "id":  "comparison-swarovski-pandora",
+        "date":  "2026-08-10",
+        "expert":  {
+                       "name":  "Robert Buchbauer",
+                       "role":  "Заместитель председателя Совета директоров Swarovski International Holding AG",
+                       "image":  "images/experts/robert-buchbauer.jpg"
+                   },
+        "product":  {
+                        "name":  "Браслет Swarovski Gema 5666018 Icy Blue",
+                        "image":  "images/products/swarovski-gema-5666018.jpg",
+                        "price_rub":  25199,
+                        "marketplace":  "Avito",
+                        "buy_link":  "https://www.avito.ru/moskva/chasy_i_ukrasheniya/braslet_swarovski_gema_5666018_icy_blue_novyy_8279608333"
+                    },
+        "content":  {
+                        "title":  "Swarovski Gema или Pandora: что лучше для бохо-шика",
+                        "excerpt":  "Сравниваем два подхода к бохо-аксессуарам: кристаллы Swarovski против шармов Pandora. Стиль, цена, вечерние образы, итоговая таблица."
+                    }
     }
 ]
